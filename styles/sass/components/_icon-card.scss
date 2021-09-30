@@ -1,0 +1,17 @@
+.icon-card {
+  min-width: 255px;
+  width: 90%;
+  h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  @media screen and (max-width: 800px) {
+    margin: 0 auto;
+    text-align: center;
+    width: 0;
+  }
+}
+.icon {
+  height: 72px;
+  width: 72px;
+}

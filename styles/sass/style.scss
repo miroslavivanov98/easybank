@@ -1,0 +1,65 @@
+@import './components/colors';
+@import './components/image';
+@import './components/header';
+@import './components/footer';
+@import './components/button';
+@import './components/card';
+@import './components/paragraphs';
+@import './components/sections';
+@import './components/icon-card';
+
+* {
+  font-family: 'Public Sans', sans-serif;
+}
+body {
+  background-color: $White;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 90%;
+  @media screen and (max-width: 800px) {
+    display: inline;
+  }
+}
+.grid-item {
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.container {
+  padding: 2px 10px;
+}
+
+h4 {
+  color: $Dark-Blue;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.title-third {
+  color: $Dark-Blue;
+  font-weight: 300;
+  font-size: 40px;
+  padding: 1em 0 0.5em 0;
+  margin: auto;
+}
+.title-first {
+  color: $Dark-Blue;
+  font-weight: 300;
+  font-size: 56px;
+  padding-top: 10%;
+  width: 450px;
+  @media screen and (max-width: 750px) {
+    padding-top: 50%;
+    width: auto;
+  }
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}

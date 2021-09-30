@@ -1,0 +1,37 @@
+.image {
+  display: flex;
+  justify-content: space-between;
+  transform: translate(450px, -700px);
+  z-index: -1;
+  @media screen and (max-width: 750px) {
+    transform: translate(0, -600px);
+  }
+}
+.image-one {
+  position: absolute;
+  height: auto;
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
+}
+.image-two {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 900px;
+  height: auto;
+  @media screen and (max-width: 750px) {
+    top: -60%;
+    left: auto;
+    width: auto;
+    height: auto;
+    display: none;
+  }
+}
+.image-mobile {
+  display: none;
+  @media screen and (max-width: 750px) {
+    //display: inline;
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.p-second-section {
+  height: 56px;
+  width: 635px;
+  padding-bottom: 1em;
+  @media screen and (max-width: 800px) {
+    width: auto;
+    height: auto;
+  }
+}
+.p-first-section {
+  height: 84px;
+  width: 477px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  @media screen and (max-width: 800px) {
+    width: auto;
+  }
+}
+.p-author {
+  font-size: 10px;
+  color: $Grayish-Blue;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+p {
+  color: $Grayish-Blue;
+  font-size: 18px;
+  color: $Grayish-Blue;
+}
+.p-in-card {
+  height: 112px;
+  width: 255px;
+  font-size: 16px;
+  color: $Grayish-Blue;
+}

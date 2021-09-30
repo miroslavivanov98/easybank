@@ -1,0 +1,38 @@
+.bot-nav {
+  margin-bottom: 0.5em;
+  margin-left: 3em;
+
+  a:hover {
+    color: HSL(158, 61.3%, 48.6%);
+  }
+}
+.my-button-footer {
+  text-align: right;
+  padding-left: 15em;
+  margin-top: 1em;
+  @media screen and (max-width: 750px) {
+    text-align: left;
+    padding: inherit;
+    margin-top: 2em;
+  }
+}
+.social {
+  margin-top: 2em;
+}
+footer {
+  background-color: #2d314d;
+  padding: 2em 0em 2em 7em;
+}
+.copyright {
+  font-size: 15px;
+  color: #ffffff;
+  opacity: 50%;
+  margin-top: 3em;
+  text-align: right;
+  @media screen and (max-width: 750px) {
+    text-align: left;
+  }
+}
+.active {
+  margin-right: 13px;
+}

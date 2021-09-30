@@ -1,0 +1,87 @@
+.header {
+  padding: 0em 0em 2em 7em;
+  background-color: $White;
+  z-index: 5;
+  margin: auto;
+  background-color: $White;
+  position: absolute;
+  width: 100% !important;
+  @media screen and (max-width: 800px) {
+    padding: 0;
+    width: 140% !important;
+  }
+}
+.top-nav {
+  text-align: center;
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
+  a:hover {
+    color: HSL(158, 61.3%, 48.6%);
+  }
+}
+.my-button-header {
+  margin-right: 7em;
+  text-align: right;
+  padding: 20px 0 0 0;
+  @media screen and (max-width: 750px) {
+    display: none;
+  }
+}
+.a-gray {
+  color: $Grayish-Blue;
+  margin-right: 30px;
+  font-size: 14px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: $White;
+  position: relative;
+  display: none;
+  @media screen and (max-width: 750px) {
+    display: block;
+  }
+}
+.hamburger {
+  display: none;
+  @media screen and (max-width: 750px) {
+    display: inline;
+    margin-left: 60%;
+    padding-bottom: 1em;
+  }
+}
+.topnav #myLinks {
+  display: none;
+  width: 80%;
+}
+
+.topnav a {
+  color: $Dark-Blue;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+}
+.topnav a.icon2 {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.logo {
+  margin: 0;
+  width: 139px;
+  height: 20px;
+  display: block;
+  background-image: url('/images/logo.svg');
+  cursor: pointer;
+
+  white-space: nowrap;
+  text-indent: -9999px;
+
+  a {
+    outline: none;
+  }
+}

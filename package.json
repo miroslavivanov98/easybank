@@ -1,0 +1,15 @@
+{
+  "name": "easybank",
+  "version": "0.0.0",
+  "scripts": {
+    "build-css": "node-sass ./styles/sass/style.scss -o ./styles -w",
+    "serve": "static-server",
+    "dev": "concurrently static-server \"node-sass ./styles/sass/style.scss -o ./styles -w\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.2",
+    "node-sass": "^6.0.1",
+    "static-server": "^2.2.1"
+  },
+  "dependencies": {}
+}

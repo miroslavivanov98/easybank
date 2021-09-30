@@ -1,0 +1,27 @@
+.third-section {
+  background-color: $Very-Light-Gray;
+  padding-bottom: 5em;
+  padding-left: 5%;
+}
+.second-section {
+  background-color: $Light-Grayish-Blue;
+  padding-bottom: 5em;
+  padding-top: 5em;
+  padding-left: 5%;
+  @media screen and (max-width: 750px) {
+    text-align: center;
+  }
+}
+.first-section {
+  background-color: $Very-Light-Gray;
+  padding-bottom: 10em;
+  padding-left: 5%;
+  @media screen and (max-width: 750px) {
+    text-align: center;
+  }
+}
+section {
+  width: 100%;
+  //padding-left: 5%;
+  margin: auto;
+}

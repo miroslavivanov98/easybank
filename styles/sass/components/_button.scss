@@ -1,0 +1,23 @@
+.button {
+  background: linear-gradient(90deg, $Lime-Green 0%, $Bright-Cyan 100%);
+  padding: 13px 35px;
+  border-radius: 22px;
+  color: #ffffff;
+  font-size: 14px;
+  &:hover {
+    background: linear-gradient(
+      90deg,
+      lighten($Lime-Green, 15%) 0%,
+      lighten($Bright-Cyan, 15%) 100%
+    );
+    cursor: pointer;
+  }
+}
+
+.button-in-left {
+  text-align: left;
+  padding-top: 1em;
+  @media screen and (max-width: 750px) {
+    text-align: center;
+  }
+}
