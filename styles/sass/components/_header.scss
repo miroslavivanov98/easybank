@@ -54,6 +54,11 @@
 .topnav #myLinks {
   display: none;
   width: 80%;
+  background-color: $Light-Grayish-Blue;
+  a:hover {
+    color: HSL(158, 61.3%, 48.6%);
+    cursor: pointer;
+  }
 }
 
 .topnav a {

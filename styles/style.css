@@ -87,7 +87,11 @@
 
 .topnav #myLinks {
   display: none;
-  width: 80%; }
+  width: 80%;
+  background-color: #f3f4f6; }
+  .topnav #myLinks a:hover {
+    color: HSL(158, 61.3%, 48.6%);
+    cursor: pointer; }
 
 .topnav a {
   color: #2d314d;
@@ -116,10 +120,12 @@
     outline: none; }
 
 .bot-nav {
-  margin-bottom: 0.5em;
-  margin-left: 3em; }
+  margin-bottom: 0.5em; }
   .bot-nav a:hover {
     color: HSL(158, 61.3%, 48.6%); }
+
+.bot-nav-container {
+  margin-left: 30px; }
 
 .my-button-footer {
   text-align: right;
@@ -178,7 +184,7 @@ footer {
   object-fit: cover; }
 
 .card {
-  margin: 15px 15px;
+  margin: 15px 0;
   background-color: #ffffff;
   min-width: 255px;
   width: 90%; }

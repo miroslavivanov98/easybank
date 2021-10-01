@@ -1,10 +1,12 @@
 .bot-nav {
   margin-bottom: 0.5em;
-  margin-left: 3em;
 
   a:hover {
     color: HSL(158, 61.3%, 48.6%);
   }
+}
+.bot-nav-container {
+  margin-left: 30px;
 }
 .my-button-footer {
   text-align: right;
