@@ -2,8 +2,9 @@
 
 This is my easybank project
 To install: 
-0. Nodejs is REQUIRED
-1. clone the repository
-2. navigate to the directory with the terminal
-3. type `npm install` to install dependencies
-4. type 'npm run dev' to start static server
+
+1. Nodejs is REQUIRED
+2. clone the repository(git clone https://github.com/miroslavivanov98/easybank.git) 
+3. navigate to the directory with the terminal
+4. type `npm install` to install dependencies
+5. type 'npm run serve' to start static server
