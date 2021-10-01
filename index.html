@@ -18,7 +18,7 @@
     <div class="grid-container header">
       <div class="grid-item">
         <h1 class="logo"><a href="/">easybank</a></h1>
-        <a href="javascript:void(0);" class="icon2" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon2" onclick="toggleMenu()">
           <img
             class="hamburger"
             id="1"
@@ -255,7 +255,7 @@
       </div>
     </footer>
     <script>
-      function myFunction() {
+      function toggleMenu() {
         let x = document.getElementById('myLinks');
         if (x.style.display === 'block') {
           x.style.display = 'none';
